@@ -1,0 +1,60 @@
+main {
+  display: flex;
+  font-family: "Oswald", Arial, Helvetica, serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #08f7ff;
+  color: #ffffff;
+  width: 100%;
+  background-image: url(/Images/Hav1.png);
+  background-size: cover;
+}
+.proj,
+.proj1,
+.Pongkeys {
+  background-color: rgba(253, 77, 253, 0.533);
+  text-align: center;
+  padding: 1em;
+  border-end-end-radius: 3em;
+  font-family: "Oswald", Arial, Helvetica, Georgia, "Times New Roman", Times,
+    serif;
+  box-shadow: 6px 5px 2px #2f0396;
+}
+.proj {
+  font-family: "Nunito Sans", sans-serif, Tahoma;
+}
+.proj1 {
+  max-width: 50em;
+  background-color: #fa89f1;
+  text-align: start;
+  color: #282429;
+}
+
+.Pongkeys {
+  font-size: large;
+  border-top-left-radius: 3em;
+  border: solid;
+  border-style: double;
+}
+
+canvas {
+  border: double;
+  display: flex;
+  box-shadow: 8px 5px 2px #2f0396;
+  border-bottom-right-radius: 25%;
+}
+
+.piratecoin {
+  transition: transform 0.5s ease-in-out;
+  width: 2em;
+  height: auto;
+  opacity: 95%;
+}
+
+.piratecoin:hover {
+  transform: rotateY(180deg);
+}
