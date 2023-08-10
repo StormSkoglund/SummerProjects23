@@ -58,3 +58,17 @@ canvas {
 .piratecoin:hover {
   transform: rotateY(180deg);
 }
+
+.coinflex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sp {
+  margin: 0.5em;
+}
+
+.depth {
+  height: 1000px;
+}
