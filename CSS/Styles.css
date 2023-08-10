@@ -4,14 +4,15 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 100vw;
 }
 
 body {
   background-color: #08f7ff;
   color: #ffffff;
-  width: 100%;
   background-image: url(/Images/Hav1.png);
   background-size: cover;
+  max-width: 100vw;
 }
 .proj,
 .proj1,
@@ -23,6 +24,7 @@ body {
   font-family: "Oswald", Arial, Helvetica, Georgia, "Times New Roman", Times,
     serif;
   box-shadow: 6px 5px 2px #2f0396;
+  max-width: 100vw;
 }
 .proj {
   font-family: "Nunito Sans", sans-serif, Tahoma;
@@ -67,6 +69,7 @@ canvas {
 
 .sp {
   margin: 0.5em;
+  max-width: 100vw;
 }
 
 .depth {
