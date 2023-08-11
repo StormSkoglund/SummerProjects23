@@ -52,6 +52,7 @@ canvas {
 
 .piratecoin {
   transition: transform 0.5s ease-in-out;
+
   width: 2em;
   height: auto;
   opacity: 95%;
@@ -74,4 +75,21 @@ canvas {
 
 .depth {
   height: 1000px;
+}
+
+button {
+  background-color: #fa89f1;
+  box-shadow: 6px 5px 2px #2f0396;
+  border-top-left-radius: 3em;
+  margin: 3em;
+  border: double white;
+  font-family: "Oswald", Arial, Helvetica, Georgia, "Times New Roman", Times,
+    serif;
+  padding: 2em;
+  font-weight: bolder;
+}
+
+button:hover {
+  background-color: #fa40f1;
+  box-shadow: 3px 2px 2px #310a8c;
 }

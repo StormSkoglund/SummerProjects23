@@ -382,3 +382,14 @@ var Game = {
 
 var Pong = Object.assign({}, Game);
 Pong.initialize();
+
+// The following code is made by me
+
+// Function that changes the background theme, when a button is pressed
+const themeChangeWhenPressed = document.querySelector("button");
+
+themeChangeWhenPressed.addEventListener("click", changeTheme);
+
+function changeTheme() {
+  document.body.style.background = "black";
+}
