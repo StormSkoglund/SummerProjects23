@@ -1,7 +1,7 @@
-// This code is a copy from Devression on Youtube (available at
-// https://www.youtube.com/watch?v=jrqN0uZwhwk&t=307s[accessed on 27nd
-// July, 2023], I have modified certain elements in the original code, such as colors and font sizes, and in then I have styled it in CSS to match my own site)
-
+/* This code is a copy from Devression on Youtube (available at
+ https://www.youtube.com/watch?v=jrqN0uZwhwk&t=307s[accessed on 27nd
+ July, 2023], I have modified certain elements in the original code, such as colors and font sizes, and in then I have styled it in CSS to match my own site)
+*/
 // Global Variables
 var DIRECTION = {
   IDLE: 0,
@@ -387,9 +387,18 @@ Pong.initialize();
 
 // Function that changes the background theme, when a button is pressed
 const themeChangeWhenPressed = document.querySelector("button");
+const elementStyle = document.querySelector(".proj");
+const elementStyle2 = document.querySelector(".proj1");
+const elementStyle3 = document.querySelector(".Pongkeys");
 
 themeChangeWhenPressed.addEventListener("click", changeTheme);
 
 function changeTheme() {
   document.body.style.background = "black";
+  elementStyle.style.background = "white";
+  elementStyle.style.color = "black";
+  elementStyle2.style.background = "white";
+  elementStyle2.style.color = "black";
+  elementStyle3.style.background = "white";
+  elementStyle3.style.color = "black";
 }
