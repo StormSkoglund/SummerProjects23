@@ -60,6 +60,7 @@ canvas {
 
 .piratecoin:hover {
   transform: rotateY(180deg);
+  transition: 300ms;
 }
 
 .coinflex {
@@ -106,7 +107,6 @@ button:hover {
   width: 100px;
   height: 100px;
   background-color: #229296;
-  background-color: ;
   border: double 2px white;
   box-sizing: border-box;
   display: flex;
